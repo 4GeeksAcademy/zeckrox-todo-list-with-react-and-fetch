@@ -1,4 +1,8 @@
-
+#app{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* 
 
     You can write your own styles here...
