@@ -5,8 +5,8 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import ToDo from "./component/ToDo.jsx";
 
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<ToDo/>, document.querySelector("#app"));

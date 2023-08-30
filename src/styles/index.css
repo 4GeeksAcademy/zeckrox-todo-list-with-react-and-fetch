@@ -1,8 +1,36 @@
-#app{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+body{
+    background-color: blanchedalmond;
 }
+
+#app{
+    font-family: 'Inconsolata', monospace;    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 25%;
+    min-height: 40vh;
+    margin: 5% auto auto auto;
+    padding: 1.5%;
+    background: rgb(255, 255, 171);
+}
+
+#app input{
+    width: 100%;
+    border: 0;
+    background: rgb(255, 255, 171);
+    border-bottom: 1px solid rgb(206, 162, 104);
+    outline: none;
+
+}
+
+#app span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    border-bottom: 1px solid burlywood;
+}
+
+
 /* 
 
     You can write your own styles here...
